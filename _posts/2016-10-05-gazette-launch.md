@@ -11,22 +11,22 @@ image: /images/blog/gazette-launch.png
 
 A new website, [opengazettes.org.za](http://opengazettes.org.za/), is making official government gazettes available online and searchable, so you no longer have to sift through or download heaps of publications to source legal notices, calls for comments on national and provincial matters and updates on civic issues. 
  
-The project is a collaboration between [Code for South Africa](https://ww.code4sa.org), a civic-technology organisation that promotes informed decision-making, the [Southern African Legal Information Institute](https://ww.http://www.saflii.org) (SAFLII), [The Indigo Trust](http://www.indigotrust.org.uk) and the [African Networks of Centers for Investigative Reporting](https://www.investigativecenters.org), with support from [Code for Africa](https:/www.https://codeforafrica.org). The initiative aims to promote citizen access to government information and increase civic participation in government processes.
+The project is a collaboration between [Code for South Africa](http://code4sa.org), a civic-technology organisation that promotes informed decision-making, the [Southern African Legal Information Institute](http://www.saflii.org) (SAFLII), [The Indigo Trust](http://www.indigotrust.org.uk) and the [African Networks of Centers for Investigative Reporting](https://www.investigativecenters.org), with support from [Code for Africa](https://codeforafrica.org). The initiative aims to promote citizen access to government information and increase civic participation in government processes.
  
-According to Parliament’s website, "Government uses [the Gazette] to publish acts and bills, regulations and notices in terms of acts, changes of names, company registrations and deregistrations, financial statements, and restitution notices, liquor license applications and transport permits. Board and legal notices are also published in the Gazette; these cover insolvencies, liquidation and estate notices."
+According to Parliament’s website, "Government uses [the Gazette] to publish acts and bills, regulations and notices in terms of acts, changes of names, company registrations and deregistrations, financial statements, land restitution notices, liquor license applications and transport permits. Board and legal notices are also published in the Gazette; these cover insolvencies, liquidation and estate notices."
 
 In a nutshell, this includes everything the government is doing that citizens should know about. 
  
-While government gazettes have always been made available somewhere, access to the information is not as easy or straightforward as it sounds, especially for regular citizens. This is especially worrying when the onus is on the public to "keep up to date with all legislation published in the government gazette, according to the [Official Publications Depository Manual](http://www.nlsa.ac.za/downloads/OPD%20Manual%20Rev%20Ed%20Aug%202007.pdf), which hosts guidelines for setting up depositories for official publications across South Africa. "And ignore is not permitted as a defence for violating a law or regulation." 
- 
+While government gazettes have always been made available somewhere, access to the information is not as easy or straightforward as it sounds, especially for regular citizens. This is especially worrying when the onus is on the public to "keep up to date with all legislation published in the Government Gazette, and ignorance is not permitted as a defense for violating a law or regulation", according to the [Official Publications Depository Manual](http://www.nlsa.ac.za/downloads/OPD%20Manual%20Rev%20Ed%20Aug%202007.pdf), which hosts guidelines for setting up depositories for official publications across South Africa.
+
 Currently, there are several ways in which citizens can access government gazettes:
 
 Physical copies are available at [Thusong Service Centres](http://www.thusong.gov.za/) and at certain libraries throughout the country;
 digital copies of national and most provincial gazettes, from 2012 onwards, are available from the government’s official [printers](http://www.gpwonline.co.za/);
-Western Cape gazettes are available on their [website](https://www.westerncape.gov.za/) and
+Western Cape gazettes are available on their [website](https://www.westerncape.gov.za/); and
 the Free State charges R11,70 for a single provincial gazette. 
 
-Considering that national and provincial copies are printed weekly, along with separate copies for liquor licenses, tender bulletins and legal notices, and urgent notices in separate copies throughout the month, it is incredibly hard to source a specific notice without being specifically pointed at it.
+Considering that national and provincial copies are printed weekly, along with separate copies for liquor licenses, tender bulletins and legal notices, and urgent notices in separate copies throughout the month, it is incredibly hard to source an individual notice without being specifically pointed at it.
  
 In addition, search functionality and access to digital copies prior to 2012 have a price tag attached as commercial providers charge for this service. Since the government gazette dates back to the Union of South Africa, this prevents the majority of South Africans from benefitting from an important record of the history of South Africa.
 
