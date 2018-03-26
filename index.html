@@ -4,8 +4,6 @@ layout: base
 extra_js:
 - tabletop.min.js
 - handlebars-v4.0.11.js
-- vendors.min.js
-- script.js
 - content.js
 ---
 <article class="home">
@@ -29,19 +27,51 @@ extra_js:
     </div>
   </div>
 
-  <div id="events-wrap" class="jumbotron jumbotron-fluid list">
+  <div id="people-wrap" class="jumbotron jumbotron-fluid list">
     <div class="container">
-      <h2 class="list-title display-4"><div class="slash">|</div>Events</h2>
-      <div id="events" class="row">
+      <h2 class="list-title display-4"><div class="slash">|</div>People</h2>
+      <div id="people" class="row"></div>
 
+      <div class="add">
+        <h4 class="add-cta display-5"><div class="slash">|</div>Interested in civic tech?</h4>
+        <a class="btn btn-skew btn-sm btn-black" target="_blank" href="https://docs.google.com/a/openup.org.za/forms/d/e/1FAIpQLSfapZSnLjICjY6PM0FrTTnHQKM4H5C1Ex-qyHvn0KHyk32Ong/viewform"><div class="unskew">Add yourself</div></a>
       </div>
     </div>
   </div>
 
-  <div id="projects-wrap" class="jumbotron jumbotron-fluid list">
+  <div id="events-wrap" class="jumbotron jumbotron-fluid list">
     <div class="container">
-      <h2 class="list-title display-4"><div class="slash">|</div>Projects</h2>
-      <div id="projects" class="row"></div>
+      <h2 class="list-title display-4"><div class="slash">|</div>Events</h2>
+      <div id="events" class="row"></div>
+
+      <div class="add">
+        <h4 class="add-cta display-5"><div class="slash">|</div>Hosting a civic tech related event?</h4>
+        <a class="btn btn-skew btn-sm btn-black" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSda9KAXCUHcbB2MshYMTqfGBo6n1zx7v7SzmTvLsKtRF4Af8g/viewform"><div class="unskew">Add an event</div></a>
+      </div>
+    </div>
+  </div>
+
+  <div id="new-projects-wrap" class="jumbotron jumbotron-fluid list">
+    <div class="container">
+      <h2 class="list-title display-4"><div class="slash">|</div>Civic technology</h2>
+      <div id="new-projects" class="row"></div>
+
+      <div class="add">
+        <h4 class="add-cta display-5"><div class="slash">|</div>Looking for people who can join your project?</h4>
+        <a class="btn btn-skew btn-sm btn-black" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSd18hzEGz-I8b7HmMIJuQfYBL0MaTa3PGxvnesLNUMk1gt-3A/viewform"><div class="unskew">Add a project</div></a>
+      </div>
+    </div>
+  </div>
+
+  <div id="running-projects-wrap" class="jumbotron jumbotron-fluid list">
+    <div class="container">
+      <h2 class="list-title display-4"><div class="slash">|</div>Contribute to a project</h2>
+      <div id="running-projects" class="row"></div>
+
+      <div class="add">
+        <h4 class="add-cta display-5"><div class="slash">|</div>Have a cool open source project you want to show the world?</h4>
+        <a class="btn btn-skew btn-sm btn-black" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSd18hzEGz-I8b7HmMIJuQfYBL0MaTa3PGxvnesLNUMk1gt-3A/viewform"><div class="unskew">Add a project</div></a>
+      </div>
     </div>
   </div>
 
@@ -49,83 +79,235 @@ extra_js:
     <div class="container">
       <h2 class="list-title display-4"><div class="slash">|</div>Tutorials</h2>
       <div id="tutorials" class="row"></div>
+
+      <div class="add">
+        <h4 class="add-cta display-5"><div class="slash">|</div>Do you have an interesting tutorial you want to share?</h4>
+        <a class="btn btn-skew btn-sm btn-black" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScgeXwLKMfZDLT9hSwI1NrOwt-_Ef--OQIAXsLc7qP2RzzR3g/viewform"><div class="unskew">Add a tutorial</div></a>
+      </div>
+    </div>
+  </div>
+
+  <div id="labs-wrap" class="jumbotron jumbotron-fluid list">
+    <div class="container">
+      <h2 class="list-title display-4"><div class="slash">|</div>Codebridge Labs</h2>
+      <div id="labs" class="row">
+        <div class="col-sm-6 col-lg-4 col-item visible">
+          <div class="single-item single-lab">
+            <div class="image">
+              <img src="img/generic-logo.png">
+              <svg class="bite" viewBox="0 0 100 100">
+                <polygon points="84,110 110,110 110,13"/>
+              </svg>
+            </div>
+            <div class="name">
+              Cape Town
+            </div>
+            <div class="address">
+              1 Thicket Street<br>
+              Newlands 7725<br>
+            </div>
+            <a class="btn btn-skew btn-sm btn-black" target="_blank" href="mailto:capetown@codebridge.org.za"><div class="unskew">Get in touch</div></a>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-4 col-item visible">
+          <div class="single-item single-lab">
+            <div class="image">
+              <img src="img/generic-logo.png">
+              <svg class="bite" viewBox="0 0 100 100">
+                <polygon points="84,110 110,110 110,13"/>
+              </svg>
+            </div>
+            <div class="name">
+              Durban
+            </div>
+            <div class="address">
+              153a Helen Jospeh Road<br>
+              Glenwood<br>
+            </div>
+            <a class="btn btn-skew btn-sm btn-black" target="_blank" href="mailto:durban@codebridge.org.za"><div class="unskew">Get in touch</div></a>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-4 col-item visible">
+          <div class="single-item single-lab">
+            <div class="image">
+              <img src="img/newlab.svg">
+              <svg class="bite" viewBox="0 0 100 100">
+                <polygon points="84,110 110,110 110,13"/>
+              </svg>
+            </div>
+            <div class="name">
+              A new Codebridge Lab
+            </div>
+            <div class="address">
+              Start your own Codebridge Lab to help support your local community. Get in touch with us to find out how.
+            </div>
+            <a class="btn btn-skew btn-sm btn-black" target="_blank" href="mailto:capetown@codebridge.org.za"><div class="unskew">Start</div></a>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </article>
 
 
 {% raw %} <!-- raw prevents jekyll from messing up handlebars -->
+<script id="people-template" type="text/x-handlebars-template">
+  <div class="col-xs-12 col-sm-6 col-lg-4 col-item {{ Approved }}">
+    <div class="single-item row">
+      <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+          <a target="_blank" href="{{ Website-URL }}">
+          <div class="image">
+            <img src="{{ Photo-URL }}">
+            <svg class="bite" viewBox="0 0 100 100">
+              <polygon points="84,110 110,110 110,13"/>
+            </svg>
+          </div>
+        </a>
+      </div>
+      <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+        <div class="name">
+          {{ Name }}
+        </div>
+        <div class="province">
+          {{ Province }}
+        </div>
+        <div class="muni">
+          {{ Municipality }}
+        </div>
+        <div class="buttons">
+          <a class="btn btn-skew btn-sm btn-black" target="_blank" href="{{ Website-URL }}"><div class="unskew">More info</div></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</script>
+
 <script id="events-template" type="text/x-handlebars-template">
   <div class="col-sm-6 col-lg-4 col-item {{ Approved }}">
     <div class="single-item">
       <a target="_blank" href="{{ Event-URL }}">
         <div class="image">
           <img src="{{ Image-URL }}">
+          <svg class="bite" viewBox="0 0 100 100">
+            <polygon points="84,110 110,110 110,13"/>
+          </svg>
         </div>
       </a>
-      <div class="name">
-        {{ Title }}
+      <div class="content">
+        <div class="name">
+          {{ Title }}
+        </div>
+        <div class="location">
+          {{ Venue }}, {{ City }}
+        </div>
+        <time class="date" datetime="{{ Date }}">
+          {{ Date }}
+        </time>
+        <div class="divider">|</div>
+        <time class="time start" datetime="{{ Start-time }}">
+          {{ Start-time }}
+        </time>
+        -
+        <time class="time end" datetime="{{ End-time }}">
+          {{ End-time }}
+        </time>
+        <div class="description">
+          {{ Description }}
+        </div>
       </div>
-      <div class="location">
-        {{ Venue }}, {{ City }}
+      <div class="buttons">
+        <a class="btn btn-skew btn-sm btn-black" target="_blank" href="{{ Event-URL }}"><div class="unskew">Attend</div></a>
       </div>
-      <time class="date" datetime="{{ Date }}">
-        {{ Date }}
-      </time>
-      <div class="divider">|</div>
-      <time class="time start" datetime="{{ Start-time }}">
-        {{ Start-time }}
-      </time>
-      -
-      <time class="time end" datetime="{{ End-time }}">
-        {{ End-time }}
-      </time>
-      <div class="description">
-        {{ Description }}
-      </div>
-      <a class="btn btn-skew btn-black" target="_blank" href="{{ Event-URL }}"><div class="unskew">More info</div></a>
     </div>
   </div>
 </script>
 
-<script id="projects-template" type="text/x-handlebars-template">
+<script id="running-projects-template" type="text/x-handlebars-template">
+  {{#unless Collaboration}}
   <div class="col-sm-6 col-lg-4 col-item {{ Approved }}">
     <div class="single-item single-project">
       <a target="_blank" href="{{ Project-URL }}">
         <div class="image">
           <img src="{{ Screenshot-URL }}">
+          <svg class="bite" viewBox="0 0 100 100">
+            <polygon points="84,110 110,110 110,13"/>
+          </svg>
         </div>
       </a>
-      <div class="name">
-        {{ Title }}
+      <div class="content">
+        <div class="name">
+          {{ Title }}
+        </div>
+        <div class="creator">
+          Made by <a target="_blank" href="{{ Creator-URL }}">{{ Creator }}</a>
+        </div>
+        <div class="description">
+          {{ Description }}
+        </div>
       </div>
-      <div class="creator">
-        Made by <a target="_blank" href="{{ Creator-URL }}">{{ Creator }}</a>
+      <div class="buttons">
+        <a class="btn btn-skew btn-sm btn-black" target="_blank" href="{{ Project-URL }}"><div class="unskew">Explore</div></a>
+        <a class="btn btn-skew btn-sm btn-black" target="_blank" href="{{ Source-URL }}"><div class="unskew">Source</div></a>
       </div>
-      <div class="description">
-        {{ Description }}
-      </div>
-      <a class="btn btn-skew btn-black" target="_blank" href="{{ Project-URL }}"><div class="unskew">Explore project</div></a>
     </div>
   </div>
+  {{/unless}}
 </script>
 
+<script id="new-projects-template" type="text/x-handlebars-template">
+  {{#if Collaboration}}
+  <div class="col-sm-6 col-lg-4 col-item {{ Approved }}">
+    <div class="single-item single-project">
+      <a target="_blank" href="{{ Project-URL }}">
+        <div class="image">
+          <img src="{{ Screenshot-URL }}">
+          <svg class="bite" viewBox="0 0 100 100">
+            <polygon points="84,110 110,110 110,13"/>
+          </svg>
+        </div>
+      </a>
+      <div class="content">
+        <div class="name">
+          {{ Title }}
+        </div>
+        <div class="creator">
+          Made by <a target="_blank" href="{{ Creator-URL }}">{{ Creator }}</a>
+        </div>
+        <div class="description">
+          {{ Description }}
+        </div>
+      </div>
+      <div class="buttons">
+        <a class="btn btn-skew btn-sm btn-black" target="_blank" href="{{ Project-URL }}"><div class="unskew">Explore</div></a>
+        <a class="btn btn-skew btn-sm btn-black" target="_blank" href="{{ Source-URL }}"><div class="unskew">Contribute</div></a>
+      </div>
+    </div>
+  </div>
+  {{/if}}
+</script>
 <script id="tutorials-template" type="text/x-handlebars-template">
   <div class="col-sm-6 col-lg-4 col-item {{ Approved }}">
     <div class="single-item single-tutorial">
       <div class="video-wrapper">
         <iframe src="https://www.youtube.com/embed/{{ Youtube-URL }}" allow="autoplay; encrypted-media" allowfullscreen="" frameborder="0"></iframe>
+        <svg class="bite" viewBox="0 0 100 100">
+          <polygon points="84,110 110,110 110,13"/>
+        </svg>
       </div>
-      <div class="name">
-        {{ Title }}
+      <div class="content">
+        <div class="name">
+          {{ Title }}
+        </div>
+        <div class="creator">
+          Made by <a target="_blank" href="{{ Creator-URL }}">{{ Creator }}</a>
+        </div>
+        <div class="description">
+          {{ Description }}
+        </div>
       </div>
-      <div class="creator">
-        Made by <a target="_blank" href="{{ Creator-URL }}">{{ Creator }}</a>
+      <div class="buttons">
+        <a class="btn btn-skew btn-sm btn-black" target="_blank" href="{{ Project-URL }}"><div class="unskew">Explore project</div></a>
       </div>
-      <div class="description">
-        {{ Description }}
-      </div>
-      <a class="btn btn-skew btn-black" target="_blank" href="{{ Project-URL }}"><div class="unskew">Explore project</div></a>
     </div>
   </div>
 </script>
