@@ -16,7 +16,7 @@ url: https://codebridge.org.za
 description:
 twitter:
   username: codebridge-za
-logo: img/logo.png
+logo: /img/logo.png
 
 collections:
   tools:

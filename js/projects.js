@@ -1,10 +1,11 @@
-function loadProjects() {
-  var projectsDoc = 'https://docs.google.com/spreadsheets/d/1HJBxoYSVZyPrMuXLa5rrk0_5FcMUA9I48B6gltXpbA4/pubhtml';
+var contentDoc = 'https://docs.google.com/spreadsheets/d/1Wc7hkoh0T32zDRtcJIVGw1pKqTjHASAlj92vz6Qz5zs/pubhtml';
 
+function loadProjects() {
   $(document).ready(function() {
     Tabletop.init({
-      key: projectsDoc,
+      key: contentDoc,
       callback: showProjects,
+      orderby: 'title',
       parseNumbers: false
     });
   });
@@ -18,11 +19,14 @@ function loadProjects() {
       $("#projects").append(html);
     });
 
-    $('#search-projects').hideseek({
+    $("#search-projects").hideseek({
       highlight: true,
       ignore_accents: true,
       nodata: 'No projects found'
     });
+
+    $(".project-content .loading").hide();
+    $(".search-box").show();
 
   };
 };

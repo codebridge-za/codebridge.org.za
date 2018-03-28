@@ -51,10 +51,10 @@ a {
   }
 }
 
+// index.html
 .home {
   .hero {
     background-image: url(../img/main-image.png);
-    background-size: cover;
     margin-bottom: 0;
     text-transform: uppercase;
     .display-4 {
@@ -75,6 +75,12 @@ a {
     }
     .col-text {
       padding: 60px;
+      .display-6 {
+        font-weight: bold;
+      }
+      @media (min-width: 1200px) {
+        padding: 120px 80px;
+      }
     }
   }
   .list {
@@ -150,9 +156,6 @@ a {
     .col-item {
       display: none;
       @media (min-width: 576px) {
-        .content {
-          padding-right: 20px;
-        }
         &:nth-of-type(odd) {
           padding-right: 0;
         }
@@ -160,11 +163,11 @@ a {
           padding-left: 0;
           margin-left: -3px;
         }
+        .content {
+          padding-right: 20px;
+        }
       }
       @media (min-width: 992px) {
-        .content {
-          padding-right: 50px;
-        }
         &:nth-of-type(3n + 1) {
           padding-right: 0;
           padding-left: 15px;
@@ -178,6 +181,9 @@ a {
           margin-left: -33px;
           padding-left: 15px;
           padding-right: 0;
+        }
+        .content {
+          padding-right: 50px;
         }
       }
       &.visible {
@@ -225,11 +231,20 @@ a {
       }
     }
   }
-  .add {
-    margin-top: 30px;
-    .add-cta {
+  .section-footer {
+    margin-top: 4rem;
+    margin-bottom: -6rem;
+    padding: 4rem 0;
+    color: $black;
+    .all {
+      margin-bottom: 4rem;
+    }
+    .add-cta, .all-cta {
       font-weight: bold;
       text-transform: uppercase;
+    }
+    .slash {
+      color: $orange !important;
     }
   }
   #people {
@@ -253,7 +268,7 @@ a {
   #tutorials {
     .video-wrapper {
       position: relative;
-      padding-bottom: 56%; /* 16:9 */
+      padding-bottom: 50%; /* 2:1 */
       height: 0;
     }
     .video-wrapper iframe {
@@ -266,6 +281,7 @@ a {
   }
 }
 
+// project.html and people.html
 article.projects, article.people {
   .jumbotron {
     background-color: $orange;
@@ -284,24 +300,45 @@ article.projects, article.people {
            -o-transform: skew(-15deg);
     }
   }
-  .content {
+  .project-content {
     margin-bottom: 2rem;
-    input.search-box {
-      margin-bottom: 2rem;
-      width: 100%;
-      padding: 0.5rem;
-      font-size: 1.25rem;
-      border: 3px solid $orange;
+    .loading {
+      text-align: center;
     }
+    .search-box-wrap {
+      position: relative;
+      input.search-box {
+        margin-bottom: 2rem;
+        width: 100%;
+        padding: 0.5rem;
+        font-size: 1.25rem;
+        border: 3px solid $orange;
+        display: none;
+      }
+      .bite {
+        position: absolute;
+        right: 0;
+        height: calc(100% - 2rem);
+        polygon {
+          fill: $white;
+          stroke: $orange;
+          stroke-width: 3px;
+          vector-effect: non-scaling-stroke;
+          shape-rendering: geometricPrecision;
+        }
+      }
+    }
+  }
+  .col-item {
     .single-item {
       margin-bottom: 60px;
       padding-bottom: 40px;
       position: relative;
       height: 90%;
       .image, .video-wrapper {
+        border: 3px solid $orange;
         background-color: #fff;
         position: relative;
-        border: 3px solid $orange;
         img {
           width: 100%;
         }
@@ -312,11 +349,11 @@ article.projects, article.people {
         right: -3px;
         height: calc(70% + 6px);
         polygon {
+          stroke: $orange;
+          fill: $white;
           stroke-width: 3px;
           vector-effect: non-scaling-stroke;
           shape-rendering: geometricPrecision;
-          fill: $white;
-          stroke: $orange;
         }
       }
       .name {
@@ -336,15 +373,46 @@ article.projects, article.people {
         bottom: 0;
       }
     }
+    @media (min-width: 576px) {
+      &:nth-of-type(odd) {
+        padding-right: 0;
+      }
+      &:nth-of-type(even) {
+        padding-left: 0;
+        margin-left: -3px;
+      }
+      .content {
+        padding-right: 20px;
+      }
+    }
+    @media (min-width: 992px) {
+      &:nth-of-type(3n + 1) {
+        padding-right: 0;
+        padding-left: 15px;
+      }
+      &:nth-of-type(3n + 2) {
+        padding-left: 0;
+        padding-right: 15px;
+        margin-left: -3px;
+      }
+      &:nth-of-type(3n + 3) {
+        margin-left: -33px;
+        padding-left: 15px;
+        padding-right: 0;
+      }
+      .content {
+        padding-right: 50px;
+      }
+    }
+  }
+  mark.highlight {
+    padding: 0;
+    background-color: $orange;
+    color: $white;
   }
 }
 
-mark.highlight {
-  padding: 0;
-  background-color: $orange;
-  color: $white;
-}
-
+// about.html
 .about {
   img {
     width: 100%;
@@ -359,6 +427,7 @@ mark.highlight {
   }
 }
 
+// navbar
 nav {
   font-family: "Kollektif", sans-serif;
   .navbar-brand {
@@ -371,6 +440,7 @@ nav {
   }
 }
 
+// buttons
 .btn {
   border-radius: 0;
   text-transform: uppercase;
@@ -401,6 +471,7 @@ nav {
   }
 }
 
+// footer
 footer {
   padding-top: 2rem;
   padding-bottom: 2rem;
